@@ -18,6 +18,7 @@ app.post('/', async (req, res) => {
     res.status(201).json(data);
 })
 
+
 app.put('/:id', async (req, res) => {
     const { body } = req;
     const { id } = req.params;
