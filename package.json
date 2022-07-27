@@ -1,0 +1,31 @@
+{
+  "name": "tdd_nodejs_jest",
+  "version": "1.0.0",
+  "description": "learning TDD :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcarloshg/TDD_Nodejs_Jest.git"
+  },
+  "keywords": [
+    "TDD",
+    "Nodejs",
+    "Jest"
+  ],
+  "author": "Jose Carlos Huerta Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcarloshg/TDD_Nodejs_Jest/issues"
+  },
+  "homepage": "https://github.com/jcarloshg/TDD_Nodejs_Jest#readme",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1"
+  }
+}
