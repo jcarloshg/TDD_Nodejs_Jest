@@ -15,10 +15,6 @@ app.post('/', async (req, res) => {
     const { body } = req;
     const { data } = await axios.default.post('https://jsonplaceholder.typicode.com/users', body);
 
-    console.log('====================================');
-    console.log({ data });
-    console.log('====================================');
-
     res.status(201).json(data);
 })
 
